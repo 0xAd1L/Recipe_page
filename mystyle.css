@@ -90,21 +90,11 @@ span {
 
 td {
   border-bottom: 1px solid rgb(221, 217, 217);
-}
-
-td:last-child {
-  border-bottom: none;
-}
-
-td {
-  padding-left: 2em;
-  padding-bottom: 1em;
+  padding:13px 0px 1em 2em;
 }
 
 td:nth-child(2n) {
-  color: brown;
-  border-bottom: 1px solid rgb(221, 217, 217);
-  
+  color: brown; 
 }
 
 table {
