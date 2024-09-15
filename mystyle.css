@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  font-family: "Ubuntu", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: rgb(244, 230, 205);
+}
+
+.container {
+  background-color: white;
+  width: 50%;
+  margin: 8% auto;
+  padding: 4em;
+}
+
+img {
+  height: 10%;
+  width: 100%;
+  max-width: 100%;
+}
+
+.radius {
+  border-radius: 15px;
+}
+
+h1,
+h2,
+h3,
+p,
+li {
+  line-height: 1.4em;
+}
+
+h2 {
+  color: brown;
+}
+
+header,
+section {
+  margin: 2em 0em;
+}
+
+header h1 {
+  margin-bottom: 0.5em;
+}
+
+li {
+  margin: 1em 0em;
+}
+
+li::marker {
+  color: brown;
+}
+
+.prep-time {
+  background-color: rgb(255, 243, 254);
+  margin: 1em 0;
+  padding: 1em;
+}
+
+.prep-time h3 {
+  color: rgb(97, 6, 97);
+}
+
+.prep-time li::marker {
+  color: rgb(97, 6, 97);
+}
+
+span {
+  font-weight: bold;
+}
+
+.line {
+  height: 1px;
+  border: 1px solid rgb(221, 217, 217);
+}
+
+td {
+  border-bottom: 1px solid rgb(221, 217, 217);
+}
+
+td:last-child {
+  border-bottom: none;
+}
+
+td {
+  padding-left: 2em;
+  padding-bottom: 1em;
+}
+
+td:nth-child(2n) {
+  color: brown;
+  border-bottom: 1px solid rgb(221, 217, 217);
+  
+}
+
+table {
+  width: 100%;
+}
+
+.nutrition p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+
+@media screen and (max-width: 768px) {
+    body {
+      font-size: 16px; /* Adjust font size for readability */
+    }
+  
+    .container {
+      width: 80%; /* Make the container wider on smaller screens */
+      padding: 3em; /* Reduce padding */
+      margin: 5% auto;
+    }
+  
+    img {
+      width: 100%; /* Ensure images are fully responsive */
+      max-width: 100%;
+    }
+  
+    td {
+      padding-left: 1em;
+      padding-bottom: 0.5em;
+    }
+  
+    h2 {
+      font-size: 1.5em; /* Adjust heading size */
+    }
+  }
+
+@media screen and (max-width: 480px) {
+    body {
+      font-size: 14px; /* Smaller font size for mobile */
+    }
+  
+    .container {
+      width: 100%; /* Make the container take up full width */
+      padding: 2em; /* Reduce padding */
+      margin: 2% auto;
+    }
+  
+    h1, h2, h3 {
+      font-size: 1.2em; /* Smaller heading sizes for mobile */
+    }
+  
+    img {
+      width: 100%; /* Ensure images are responsive */
+    }
+  
+    td {
+      padding-left: 0.5em; /* Reduce padding in table cells */
+      padding-bottom: 0.5em;
+    }
+  }
+
+
